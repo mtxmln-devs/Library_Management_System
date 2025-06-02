@@ -113,7 +113,7 @@ This Library Management System is a full-featured web application that digitizes
    CREATE DATABASE book_management;
    
    -- Import database schema
-   mysql -u username -p book_management < database/schema.sql
+   mysql -u username -p book_management < database/book_management.sql
    ```
 
 3. **Configuration**
