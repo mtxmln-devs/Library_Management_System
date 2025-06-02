@@ -187,49 +187,40 @@ This Library Management System is a full-featured web application that digitizes
 
 ## 📁 Project Structure
 
-```
+
 Library_Management_System/
-├── index.php                 # Main application entry point
-├── config/
-│   ├── database.php         # Database configuration
-│   ├── security.php         # Security settings
-│   └── app.php              # Application settings
+├── home.php                 # First page 
+|
 ├── includes/
-│   ├── header.php           # Common header
-│   ├── footer.php           # Common footer
-│   ├── sidebar.php          # Navigation sidebar
-│   └── functions.php        # Utility functions
+│   ├── index.php            # Common header
+|
 ├── pages/
-│   ├── login.php            # User authentication
-│   ├── register.php         # User registration
-│   ├── dashboard.php        # Main dashboard
-│   ├── search.php           # Book search
+│   ├── loginForm.php        # User authentication
+│   ├── signup.php           # User registration
+│   ├── index.php            # Main dashboard
 │   ├── profile.php          # User profile
-│   ├── wallet.php           # Digital wallet
-│   └── admin/               # Admin-only pages
+│   ├── wallet.php           # User Digital wallet
+|   ├── borrowedBooks.php    # Borrow Books 
+│   ├── borrowForm.php       # Borrow Form 
+│   ├── finesBooks.php       # Fines Book 
+│   ├── reservedBooks.php    # Reserve Book 
+│   ├── reserveForm.php      # Reserve Form  
+│   ├── returnedBooks.php    # Return Book 
+|
+├── operation/
+|   ├──search.php            # Search functionality
+|
 ├── assets/
-│   ├── css/
-│   │   ├── style.css        # Main stylesheet
-│   │   ├── dashboard.css    # Dashboard styles
-│   │   └── responsive.css   # Mobile responsiveness
-│   ├── js/
-│   │   ├── main.js          # Core JavaScript
-│   │   ├── search.js        # Search functionality
-│   │   └── wallet.js        # Wallet operations
-│   └── images/              # UI images and icons
+│   │   └── logo.png         # First Page logo
+|
 ├── database/
-│   ├── schema.sql           # Database structure
-│   ├── sample_data.sql      # Sample data
-│   └── migrations/          # Database migrations
-├── api/
-│   ├── books.php            # Book API endpoints
-│   ├── users.php            # User API endpoints
-│   └── transactions.php     # Transaction endpoints
+│   ├── book_management.sql  # Database structure
+│   ├── add fines.sql       # Fines database structure
+|
 └── README.md                # Project documentation
-```
+
 
 ## 📖 Usage Instructions
-
 ### 👤 For Users
 1. **Registration**: Create account with personal information
 2. **Login**: Access system with email and password
@@ -252,7 +243,6 @@ Library_Management_System/
 - **Audit Logs**: Review system access and changes
 
 ## 🔒 Security Features
-
 ### 🛡️ Data Protection
 - **Password Encryption**: Secure password hashing
 - **SQL Injection Prevention**: Prepared statements and input validation
@@ -266,8 +256,7 @@ Library_Management_System/
 - **Data Validation**: Server-side input validation
 
 ## 🤝 Contributing
-
-We welcome contributions to improve the library management system! Please follow these guidelines:
+I welcome contributions to improve the library management system! Please follow these guidelines:
 
 ### 🔧 Development Guidelines
 - Follow existing code style and conventions
@@ -283,12 +272,8 @@ We welcome contributions to improve the library management system! Please follow
 4. Test thoroughly
 5. Submit a pull request with detailed description
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Support
-
 If you encounter any issues or have questions:
 - 🐛 **Bug Reports**: Submit detailed issues on GitHub
 - 💡 **Feature Requests**: Propose new features via GitHub issues
@@ -296,20 +281,17 @@ If you encounter any issues or have questions:
 - 📚 **Documentation**: Review the user manual and API documentation
 
 ## 🔄 Updates
-
 Stay updated with the latest features and improvements:
 - ⭐ Star the repository for notifications
 - 👀 Watch for new releases and updates
 - 📱 Follow development progress and roadmap
 
 ## 🎓 Educational Use
-
 This system is perfect for:
 - Library science students and projects
 - Educational institutions and schools
 - Small to medium-sized libraries
 - Software development learning and portfolio projects
 
----
 
 **Note**: This system is designed for educational and small-scale library use. For enterprise-level implementations, additional security measures and scalability considerations may be required.
