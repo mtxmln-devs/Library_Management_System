@@ -3,7 +3,6 @@
 
 ![image alt](https://github.com/mtxmln-devs/Library_Management_System/blob/122145a1187272b17d53e798ab5c3ef57aa0f969/Screenshot%202025-06-02%20122000.png)
 
-
 # 📚 Library Management System
 
 A comprehensive digital library management platform designed to streamline library operations, book management, and user interactions with modern web technologies.
@@ -314,11 +313,3 @@ This system is perfect for:
 ---
 
 **Note**: This system is designed for educational and small-scale library use. For enterprise-level implementations, additional security measures and scalability considerations may be required.
-
-
-
-
-
-
-
-
