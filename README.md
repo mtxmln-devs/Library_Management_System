@@ -17,19 +17,15 @@ This Library Management System is a full-featured web application that digitizes
 - **User Registration**: Complete sign-up process with personal information
 - **Secure Login**: Email-based authentication system
 - **User Profiles**: Detailed user information and account management
-- **Role-Based Access**: Different permissions for librarians and regular users
-- **Account Recovery**: Password reset and account recovery options
 
 ### 📖 Book Management
 - **Comprehensive Book Database**: Store detailed book information (ISBN, title, author, category, publisher)
-- **Advanced Search**: Multi-criteria search functionality with filters
+- **Search**: Allows search functionality for easy locating the specified books
 - **Book Catalog**: Organized display of available books with sorting options
 - **Inventory Tracking**: Real-time availability status and copy management
-- **Category Management**: Organized book classification system
 
 ### 💳 Digital Wallet System
 - **Account Balance**: Track user wallet balance for fines and fees
-- **Transaction History**: Complete record of all financial transactions
 - **Payment Processing**: Handle library fines and service charges
 - **Balance Management**: Add funds and view spending history
 
@@ -38,18 +34,15 @@ This Library Management System is a full-featured web application that digitizes
 - **Borrowed Books Tracking**: Monitor currently borrowed items
 - **Reserved Books Management**: Handle book reservations and holds
 - **Overdue Notifications**: Track and manage overdue items
-- **User Activity Monitoring**: Comprehensive activity logs
 
 ### 🎨 User Interface Features
 - **Modern Design**: Clean, professional purple-themed interface
 - **Responsive Layout**: Optimized for desktop, tablet, and mobile devices
-- **Intuitive Navigation**: Easy-to-use sidebar navigation system
 - **Interactive Elements**: Hover effects and smooth transitions
 - **Data Tables**: Organized display of information with pagination
 - **Search Integration**: Quick search functionality across all modules
 
 ## 🛠️ Tech Stack
-
 ### Frontend Technologies
 - **HTML5**: Semantic markup and structure
 - **CSS3**: Modern styling with custom design system and responsive layouts
