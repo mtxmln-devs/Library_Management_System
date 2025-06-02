@@ -154,7 +154,7 @@ This Library Management System is a full-featured web application that digitizes
 
 ### 🔧 Environment Configuration
 
-1. **Database Connection**
+ **Database Connection**
    ```php
    // config/config.php
    define('DB_HOST', 'localhost');
@@ -162,21 +162,7 @@ This Library Management System is a full-featured web application that digitizes
    define('DB_USER', 'your_username');
    define('DB_PASS', 'your_password');
    ```
-
-2. **Security Settings**
-   ```php
-   // config/security.php
-   define('SECRET_KEY', 'your_secret_key');
-   define('ENCRYPTION_METHOD', 'AES-256-CBC');
-   ```
-
-3. **Application Settings**
-   ```php
-   // config/app.php
-   define('APP_NAME', 'Library Management System');
-   define('APP_VERSION', '1.0.0');
-   define('TIMEZONE', 'Asia/Manila');
-   ```
+ 
 
 ## 📁 Project Structure
 
