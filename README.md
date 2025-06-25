@@ -165,8 +165,7 @@ This Library Management System is a full-featured web application that digitizes
  
 
 ## 📁 Project Structure
-
-
+```bash
 Library_Management_System/
 ├── home.php                 # First page 
 |
@@ -197,7 +196,7 @@ Library_Management_System/
 │   ├── add fines.sql       # Fines database structure
 |
 └── README.md                # Project documentation
-
+```
 
 ## 📖 Usage Instructions
 ### 👤 For Users
