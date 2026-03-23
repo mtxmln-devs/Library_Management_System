@@ -18,6 +18,9 @@
 > A comprehensive digital library management platform designed to streamline library operations, book management, and user interactions with modern web technologies.
 
 </div>
+
+--- 
+
 ## 📖 Overview
 
 This Library Management System is a full-featured web application that digitizes traditional library operations. It provides librarians and users with an intuitive platform to manage books, track borrowing activities, handle reservations, and maintain user accounts. The system features a modern purple-themed interface with comprehensive user management, search functionality, and administrative tools.
