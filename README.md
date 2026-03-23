@@ -5,8 +5,19 @@
 
 # 📚 Library Management System
 
-A comprehensive digital library management platform designed to streamline library operations, book management, and user interactions with modern web technologies.
 
+
+<div align="center">
+   
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />  
+
+> A comprehensive digital library management platform designed to streamline library operations, book management, and user interactions with modern web technologies.
+
+</div>
 ## 📖 Overview
 
 This Library Management System is a full-featured web application that digitizes traditional library operations. It provides librarians and users with an intuitive platform to manage books, track borrowing activities, handle reservations, and maintain user accounts. The system features a modern purple-themed interface with comprehensive user management, search functionality, and administrative tools.
